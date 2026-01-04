@@ -5,7 +5,7 @@ import SignupPage from "./components/SignupPage";
 import GuestDashboard from "./components/GuestDashboard";
 import StaffDashboard from "./components/StaffDashboard";
 import AdminDashboard from "./components/AdminDashboard";
-import BookingPage from "./components/BookingPage";
+import BookingPage from "./components/BookingPageNew";
 import OrderFood from "./components/OrderFood";
 import HousekeepingPage from "./components/HousekeepingPage";
 import { Toaster } from "./components/ui/toaster";
