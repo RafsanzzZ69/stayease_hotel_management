@@ -1,5 +1,4 @@
-import ServiceRequest from "/Users/tahura/Desktop/StayEase/api/models/ServiceRequest.js";
-import {io} from "../../index.js";
+import ServiceRequest from "../../models/ServiceRequest.js";import {io} from "../../index.js";
 export const getFoodOrders = async (req, res) => {
   try {
     // Optional filter: exclude delivered orders if query.active=true

@@ -1,5 +1,4 @@
-import Booking from "/Users/tahura/Desktop/StayEase/api/models/booking.js";
-import {io} from "../../index.js";
+import Booking from "../../models/booking.js";import {io} from "../../index.js";
 // Update booking status
 export const updateBookingStatus = async (req, res) => {
   try {
